@@ -10,7 +10,6 @@ package squarify
 
 import (
   "sort"
-  "fmt"
 )
 
 // The TreeSizer interface must be implemented by any tree that will be Squarified.
@@ -257,7 +256,6 @@ func squarify(root TreeSizer, block Block, options Options, depth int) (blocks [
   blocks = make([]Block, 0)
   meta = make([]Meta, 0)
 
-fmt.Println("squarify: depth", depth,"  maxDepth", options.MaxDepth)
   if block.W <= options.MinW || block.H <= options.MinH || depth >= options.MaxDepth {
     return
   }
