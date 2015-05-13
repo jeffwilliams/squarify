@@ -1,0 +1,34 @@
+<svg width="800.000000" height="800.000000">
+  <rect x="0.000000" y="0.000000" width="430.769231" height="567.272727" style="fill: #F2AE72;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="5.000000" y="20.000000" style="font-size:20px">j (0)</text>
+  <rect x="430.769231" y="0.000000" width="369.230769" height="567.272727" style="fill: #F2AE72;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="435.769231" y="20.000000" style="font-size:20px">p (15)</text>
+  <rect x="0.000000" y="567.272727" width="800.000000" height="232.727273" style="fill: #F2AE72;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="5.000000" y="587.272727" style="font-size:20px">c (10)</text>
+  <rect x="5.000000" y="30.000000" width="252.461538" height="253.463203" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="10.000000" y="50.000000" style="font-size:20px">i (30)</text>
+  <rect x="257.461538" y="30.000000" width="168.307692" height="253.463203" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="262.461538" y="50.000000" style="font-size:20px">e (20)</text>
+  <rect x="5.000000" y="283.463203" width="210.384615" height="152.077922" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="10.000000" y="303.463203" style="font-size:20px">f (15)</text>
+  <rect x="215.384615" y="283.463203" width="210.384615" height="152.077922" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="220.384615" y="303.463203" style="font-size:20px">g (15)</text>
+  <rect x="5.000000" y="435.541126" width="252.461538" height="126.731602" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="10.000000" y="455.541126" style="font-size:20px">h (15)</text>
+  <rect x="257.461538" y="435.541126" width="168.307692" height="126.731602" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="262.461538" y="455.541126" style="font-size:20px">d (10)</text>
+  <rect x="435.769231" y="30.000000" width="205.274725" height="206.994949" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="440.769231" y="50.000000" style="font-size:20px">l (20)</text>
+  <rect x="641.043956" y="30.000000" width="153.956044" height="206.994949" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="646.043956" y="50.000000" style="font-size:20px">m (12)</text>
+  <rect x="435.769231" y="236.994949" width="179.615385" height="177.424242" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="440.769231" y="256.994949" style="font-size:20px">n (16)</text>
+  <rect x="615.384615" y="236.994949" width="179.615385" height="177.424242" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="620.384615" y="256.994949" style="font-size:20px">o (15)</text>
+  <rect x="435.769231" y="414.419192" width="143.692308" height="147.853535" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="440.769231" y="434.419192" style="font-size:20px">k (10)</text>
+  <rect x="5.000000" y="597.272727" width="395.000000" height="197.727273" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="10.000000" y="617.272727" style="font-size:20px">a (40)</text>
+  <rect x="400.000000" y="597.272727" width="296.250000" height="197.727273" style="fill: #D96459;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans"/>
+  <text x="405.000000" y="617.272727" style="font-size:20px">b (30)</text>
+</svg>
