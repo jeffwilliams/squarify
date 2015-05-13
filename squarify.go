@@ -12,9 +12,11 @@ import (
 	"sort"
 )
 
-// The TreeSizer interface must be implemented by any tree that will be Squarified.
+// The TreeSizer interface must be implemented by any tree that will be Squarified. Each node in the
+// tree implements TreeSizer.
 type TreeSizer interface {
-	// Size is the logical size of the item and will be used to compute it's area.
+	// Size is the logical size of the item and will be used to compute it's area. The size of
+	// a node must be greater than or equal to the sum of the sizes of it's children.
 	Size() float64
 	// NumChildren is the number of children that this tree node has.
 	NumChildren() int
@@ -55,9 +57,9 @@ const (
 )
 
 const (
-  // DoSort may be used in the Options struct to request sorting
-	DoSort   = true
-  // DontSort may be used in the Options struct to decline sorting
+	// DoSort may be used in the Options struct to request sorting
+	DoSort = true
+	// DontSort may be used in the Options struct to decline sorting
 	DontSort = false
 )
 
@@ -151,7 +153,7 @@ func (r *row) pop() *area {
 		return a
 	}
 
-  return nil
+	return nil
 }
 
 // pushTemporarily pushes area `a` onto the Row, runs f(), then pops the Row.
