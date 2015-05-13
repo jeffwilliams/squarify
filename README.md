@@ -8,3 +8,5 @@ Go implementation of the DirTree Squarify algorithm of Bruls, Huizing, and Van W
 
 The basic idea is to generate a tiling of items of various sizes, each of which may have children which
 are tiled nested inside their parent.
+
+![Sample TreeMap](http://jeffwilliams.github.io/squarify/sample.svg)
