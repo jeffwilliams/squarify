@@ -2,7 +2,7 @@
 
 [![GoDoc](https://godoc.org/github.com/jeffwilliams/squarify?status.svg)](https://godoc.org/github.com/jeffwilliams/squarify)
 
-Go implementation of the DirTree Squarify algorithm of Bruls, Huizing, and Van Wijk:
+Go implementation of the Squarified Treemaps algorithm of Bruls, Huizing, and Van Wijk:
 
   [http://www.win.tue.nl/~vanwijk/stm.pdf](http://www.win.tue.nl/~vanwijk/stm.pdf)
 
