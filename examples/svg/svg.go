@@ -99,8 +99,8 @@ func color(depth int) string {
 // makeSvg outputs an SVG image from the passed blocks and meta. The size of the image is the size of canvas,
 // and the SVG is output to the writer w.
 func makeSvg(blocks []squarify.Block, meta []squarify.Meta, canvas squarify.Rect, w io.Writer) {
-
-	fmt.Fprintf(w, "<svg width=\"%f\" height=\"%f\">\n", canvas.W, canvas.H)
+	fmt.Fprintf(w, "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"%f\" height=\"%f\">\n",
+		canvas.W, canvas.H)
 	for i, b := range blocks {
 		fmt.Fprintf(w, "  <rect x=\"%f\" y=\"%f\" width=\"%f\" height=\"%f\" style=\"fill: #%s;stroke-width: 1;stroke: #000000; font-family: verdana, bitstream vera sans, sans\"/>\n",
 			b.X, b.Y, b.W, b.H, color(meta[i].Depth))
