@@ -401,7 +401,7 @@ func areas(root TreeSizer, block Block, dosort bool) (areas []area) {
 	}
 
 	if dosort {
-		sort.Sort(byAreaAndPlaceholder(areas))
+		sort.Stable(byAreaAndPlaceholder(areas))
 	}
 
 	return
